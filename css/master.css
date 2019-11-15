@@ -1,0 +1,129 @@
+body {
+  margin : 0;
+}
+
+header {
+  min-height: 100vh;
+  padding: 3em;
+  background-color: black;
+  color: white;
+/* display en flexbox pour centrer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+    min-height: 120vh;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  min-height: 80vh;
+  background: #FFE749;
+  overflow: hidden;
+  padding: 10px;
+}
+
+#fable01 .main-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#fable01 .text-content {
+  margin: 12px;
+/*  max-width: 620px; */
+  flex-basis: 420px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+
+
+#fable01 figure img {
+  width : 100%;
+}
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  min-height: 60vh;
+  background: #6b7b00 url('images/fox.jpg') top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  padding: 42px;
+}
+
+#fable02 .text-content {
+  margin-top : 0;
+  margin-right : auto;
+  margin-bottom : 0;
+  margin-left : auto;
+
+  max-width: 620px;
+}
+
+
+
+/* Styles utilisés dans fable04 */
+
+#fable04 {
+  overflow: hidden;
+  background: #000 url('images/blue.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#fable04 p {
+  max-width: 640px;
+  text-align: left;
+  letter-spacing: 0.25em;
+  line-height: 2;
+}
+
+#fable04 .fable-moral {
+  max-width: 100%;
+  text-align: center;
+}
+
+.emphasised {
+  font-size: 1.5em;
+  padding : 2px;
+  background: black;
+  border-bottom : 1px solid #fff;
+}
+
+footer {
+  min-height: 80vh;
+  overflow: hidden;
+  padding: 12px;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  flex-basis: 320px;
+  flex-grow: 1;
+  margin: 1em;
+  padding: 0;
+}
+
+footer li img {
+  width: 100%;
+}

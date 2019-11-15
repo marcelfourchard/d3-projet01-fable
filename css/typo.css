@@ -1,0 +1,97 @@
+/* Polices utilisés dans le header */
+@import url('https://fonts.googleapis.com/css?family=Alata|Bebas+Neue|Teko&display=swap');
+/* Polices utilisés dans fable01 */
+@import url('https://fonts.googleapis.com/css?family=Alata|Bebas+Neue|Teko&display=swap');
+/* Polices utilisés dans fable02 */
+@import url('https://fonts.googleapis.com/css?family=Alata|Bebas+Neue|Teko&display=swap');
+/* Polices utilisés dans fable04 */
+@import url('https://fonts.googleapis.com/css?family=Alata|Bebas+Neue|Teko&display=swap');
+/* Polices utilisés dans footer sont les mêmes que dans header */
+
+header {
+  font-family: 'Bebas Neue', cursive;
+}
+
+header h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+header p {
+  font-size: 2.25em;
+}
+
+/* Styles partagés par tous les éléments ayant la même class */
+
+.fable-moral {
+  font-size: 4em;
+  margin: 2.75rem 0 1rem;
+}
+
+/* Styles utilisés dans fable01 */
+
+#fable01 {
+  font-family: 'Alata', sans-serif;
+}
+
+#fable01 h2 {
+  font-size: 5em;
+  margin: 5rem 0 5.5rem 0;
+  font-family: 'Alata', sans-serif;
+  font-weight: 900;
+  line-height: 1.0;
+}
+
+#fable01 p {
+  margin-bottom: 0.5em;
+}
+
+#fable01 .fable-moral {
+  font-family: 'Alata', sans-serif;
+    text-align: right;
+}
+
+/* Styles utilisés dans fable02 */
+
+#fable02 {
+  font-family: 'Teko', sans-serif;
+}
+
+#fable02 h2 {
+  font-family: 'Teko', sans-serif;
+  font-size: 8em;
+}
+
+#fable02 {
+
+}
+
+
+
+/* Styles utilisés dans fable04 */
+
+#fable04 {
+  font-family: 'Bebas Neue', cursive;
+}
+
+#fable04 h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4em;
+}
+
+
+footer {
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  background: repeating-linear-gradient(
+    -55deg,
+    #2b2d42,
+    #2b2d42 10px,
+    #222 10px,
+    #222 20px
+  );
+}
+
+footer a {
+  color : #fff;
+}
